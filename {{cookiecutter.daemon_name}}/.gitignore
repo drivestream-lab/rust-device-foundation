@@ -4,4 +4,8 @@
 .env
 *.pem
 *.sock
-.cursor/rules
+
+# Launchpad harness — local skill hubs (re-created by apply-harness)
+.harness/skills/
+.agents/
+.claude/

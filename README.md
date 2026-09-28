@@ -7,7 +7,7 @@ template, and pin instructions for [`rust-device-rules`](https://github.com/driv
 | | |
 |---|---|
 | **Template engine** | Cookiecutter |
-| **Version** | see [`VERSION`](VERSION) (currently **0.1.0**) · [CHANGELOG](CHANGELOG.md) |
+| **Version** | see [`VERSION`](VERSION) (currently **0.1.1**) · [CHANGELOG](CHANGELOG.md) |
 | **License** | [MIT](LICENSE) |
 | **Constitution** | Pin **`rust-device-rules`** @ **v0.1.0** at `.cursor/rules` |
 | **Stack** | Rust 2021 · Tokio · tracing |

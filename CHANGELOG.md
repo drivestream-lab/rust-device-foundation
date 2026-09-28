@@ -4,6 +4,13 @@ All notable changes to `rust-device-foundation` are documented here.
 
 ---
 
+## v0.1.1
+
+### Fixed
+
+- Stop gitignoring `.cursor/rules` (Launchpad mounts constitution as a submodule).
+- Ignore harness skill hubs (`.harness/skills/`, `.agents/`, `.claude/`).
+
 ## v0.1.0
 
 ### Summary
