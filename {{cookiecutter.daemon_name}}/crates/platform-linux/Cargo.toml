@@ -1,0 +1,12 @@
+[package]
+name = "device_platform_linux"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+device_core = { path = "../core" }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+tokio = { workspace = true }
+hostname = "0.4"

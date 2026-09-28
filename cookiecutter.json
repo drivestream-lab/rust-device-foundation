@@ -1,0 +1,4 @@
+{
+  "daemon_name": "device-daemon",
+  "daemon_description": "Long-running Rust device daemon chassis"
+}

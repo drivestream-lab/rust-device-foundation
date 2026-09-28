@@ -1,0 +1,15 @@
+[Unit]
+Description={{ cookiecutter.daemon_description }}
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/{{ cookiecutter.daemon_name }}
+Restart=on-failure
+RestartSec=5
+Environment=RUST_LOG=info
+# Product: RuntimeDirectory, User, AmbientCapabilities — ADR
+
+[Install]
+WantedBy=multi-user.target
